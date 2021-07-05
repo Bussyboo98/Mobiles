@@ -45,7 +45,8 @@ export default function App() {
       </View>
  
       <TouchableOpacity style={styles.loginBtn}>
-        <Text style={styles.loginText}>LOGIN</Text>
+        <Text style={styles.loginText}
+         >LOGIN</Text>
       </TouchableOpacity>
       </ImageBackground>
     </View>
