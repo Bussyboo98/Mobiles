@@ -29,7 +29,7 @@ export default function App() {
                 30
             </Text>
         </View>
-    <View style={styles.box}>
+    <View style={styles.box}> 
      <TouchableOpacity >
         <Text style={{ fontSize: '20px', textAlign: 'left', fontWeight:"500"}}>
         Change photo, first name, age and more 
