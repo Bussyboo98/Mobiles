@@ -6,6 +6,7 @@ import SignUp from './SignUp';
 import LogIn from './Login'
 import Profile from './Profile'
 import Picture from './Picture'
+import Pics from './Pics'
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -33,8 +34,9 @@ export default function App() {
   const Stack = createStackNavigator();
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='picture'>
-       <Stack.Screen component={Picture} name='picture' options={{ headerShown: false}} />
+      <Stack.Navigator initialRouteName='pics'>
+       <Stack.Screen component={Pics} name='picture' options={{ headerShown: false}} />
+       <Stack.Screen component={Picture} name='pictures' />
        <Stack.Screen component={Profile} name='profile' />
         <Stack.Screen component={SignUp} name='register' />
         <Stack.Screen component={LogIn} name='login' />

@@ -8,7 +8,7 @@ export default function App() {
   return (
     <View style={styles.container}>
         <TouchableOpacity
-            style={{color: "white",fontSize: 32,fontWeight: "500", bottom: '12%',  right:"40%", }}>
+            style={{color: "white",fontSize: 32,fontWeight: "500", bottom: '12%',  right:"40%",  }}>
             <FontAwesome name="arrow-left" size={25} color={'black'}/>
         </TouchableOpacity>
         <TouchableOpacity

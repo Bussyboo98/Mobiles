@@ -1,6 +1,5 @@
 import React from 'react';
-import {
-  SafeAreaView,StatusBar,StyleSheet,View,Image,Text} from 'react-native';
+import {SafeAreaView,StatusBar,StyleSheet,View,Image,Text, TouchableOpacity} from 'react-native';
 
 
 const App = () => {
@@ -16,14 +15,18 @@ const App = () => {
                 
         </View>
         <View style={styles.parent}>
+        <TouchableOpacity>
         <Image 
             source={require('./assets/sole.jpg')}  
             style={{width: 150, height: 150, }}
             />
+         </TouchableOpacity>
+         <TouchableOpacity>  
          <Image 
             source={require('./assets/sole.jpg')}  
             style={{width: 150, height: 150, }}
             />
+        </TouchableOpacity>
         </View>
       </SafeAreaView>
     </>
